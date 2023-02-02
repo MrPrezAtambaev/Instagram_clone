@@ -235,9 +235,11 @@ post_form.onsubmit = async (e) => {
 
 
 
-let render = () => { 
+
+async function render() { 
     let post = getLSData('ins_post'); 
     let list = ''; 
+
  
     if (!post) { 
         all_posts.innerHTML = `<div class="card shadow-sm text-center mt-3"><div class="card-body">No post found</div></div>`; 
@@ -302,7 +304,7 @@ let currentLikeStatus = "neutral";
 let likeButton = document.querySelector("#like-button");
 let likesElement = document.querySelector(".likes");
 
-likeButton.addEventListener("click", function () {
+likeButton.addEventListener("click", () => {
   if (currentLikeStatus === "neutral") {
     likes++;
     likesElement.innerHTML = likes + " likes";
@@ -311,40 +313,40 @@ likeButton.addEventListener("click", function () {
     likes--;
     likesElement.innerHTML = likes + " likes";
     currentLikeStatus = "neutral";
-  }
+  };
 });
-
+render();
 //! likes end
 
 
 //! comments logic start 
-document.querySelector(".comment-btn").addEventListener("click", function() {
-    var commentText = document.querySelector(".comment-box").value;
-    var postId = document.getElementById("post").getAttribute("data-post-id");
+// document.querySelector(".comment-btn").addEventListener("click", function() {
+//     var commentText = document.querySelector(".comment-box").value;
+//     var postId = document.getElementById("post").getAttribute("data-post-id");
   
-    // send request to the server to add the comment
-    fetch(`${POSTS_API}/${postId}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        comments: [
-          ...post.comments,
-          { text: commentText }
-        ]
-      })
-    })
-    .then(res => res.json())
-    .then(post => {
-      // add the comment to the UI
-      var comment = document.createElement("div");
-      comment.classList.add("comment");
-      comment.innerHTML = "<p>" + commentText + "</p>";
-      document.getElementById("post").appendChild(comment);
-    })
-    .catch(error => console.error(error));
-  });
+//     // send request to the server to add the comment
+//     fetch(`${POSTS_API}/${postId}`, {
+//       method: "PATCH",
+//       headers: {
+//         "Content-Type": "application/json"
+//       },
+//       body: JSON.stringify({
+//         comments: [
+//           ...post.comments,
+//           { text: commentText }
+//         ]
+//       })
+//     })
+//     .then(res => res.json())
+//     .then(post => {
+//       // add the comment to the UI
+//       var comment = document.createElement("div");
+//       comment.classList.add("comment");
+//       comment.innerHTML = "<p>" + commentText + "</p>";
+//       document.getElementById("post").appendChild(comment);
+//     })
+//     .catch(error => console.error(error));
+//   });
 //! comments logic end 
 
 all_posts.onclick = (e) => {
@@ -415,11 +417,13 @@ edit_post.onsubmit = (e) => {
 //! CRUD end
 //! live search
 let searchInp = document.querySelector(".search-box");
-searchInp.addEventListener("input", () => {
-  search = searchInp.value;
-  console.log(search);
+searchInp.addEventListener("input", function() {
+  let searchTerm = searchInp.value;
+  console.log("Searching for: " + searchTerm);
+  // Perform search and update results
   render();
 });
+
 //* search logic end
 
 //! pagination
