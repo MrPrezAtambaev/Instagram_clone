@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +47,7 @@ body{
 .ins-img{
     height: 100%;
     margin-top: 7px;
-    margin-left: 425px;
+    margin-left: 405px;
 }
 
 .search-box{
@@ -70,7 +72,7 @@ body{
 .nav-items{
     height: 22px;
     position: relative;
-    margin-right: -65px;
+    margin-right: -130px;
 }
 
 .icon{
@@ -82,9 +84,24 @@ body{
 
 .user-profile{
     width: 22px;
-    border-radius: 50%;
-    background-image: url(../img/peofile.jpg);
+    border-radius: 50% !important;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReFjO6rbNAKcZtfgpqkhnqWGPwcH5hAArN1A&usqp=CAU);
     background-size: cover;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+    
+}
+.dropdown-menu{
+    border-radius: 10px !important;
+}
+span {
+    color: black;
+}
+.page-link{
+    width: 35px;
+    border-radius: 10px;
 }
 /* Navbar End */
 
@@ -137,7 +154,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-right: 15px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .profile-pic {
@@ -365,18 +382,7 @@ body{
     margin: 20px 0;
 }
 
-@media (max-width: 1100px){
-    .right-col, .search-box{
-        display: none;
-    }
-    .nav-wrapper,
-    .wrapper{
-        width: 90%;
-    }
-    .wrapper{
-        display: block;
-    }
-}
+
 
 @media (max-width: 500px){
     .nav-items .icon{
@@ -385,8 +391,8 @@ body{
     .post-image{
         height: 300px;
     }
-}
-/* Sidebar Section End */
+} */
+/* Sidebar Section End
 
 
 /* Edit/ Delete Start */

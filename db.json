@@ -4,7 +4,85 @@
       "username": "Akyl",
       "password": "pass123",
       "id": 1
+    },
+    {
+      "username": "Jack",
+      "password": "pass124",
+      "id": 2
+    },
+    {
+      "username": "Zamir",
+      "password": "pass123",
+      "id": 3
+    },
+    {
+      "username": "Samat",
+      "password": "pass123",
+      "id": 4
+    },
+    {
+      "username": "Urmat",
+      "password": "pass112",
+      "id": 5
+    },
+    {
+      "username": "Lucky_Chaika",
+      "password": "chaika"
+    },
+    {
+      "username": "Ilya",
+      "password": "pass123",
+      "id": 6
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "aname": "Akyl",
+      "aphoto": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "pcontent": "вфцфвф",
+      "pphoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_fpPmbK-bebEeX036y7frmW06amtCkG1ew&usqp=CAU",
+      "pdate": "2023-02-10",
+      "id": "225_1675269390577"
+    },
+    {
+      "aname": "Bakyt",
+      "aphoto": "https://cdn.eso.org/images/thumb300y/eso1907a.jpg",
+      "pcontent": "Iphone 14",
+      "pphoto": "https://www.91-img.com/gallery_images_uploads/c/0/c0484650fb4095ec0b1ecf94832b106fb05e13cc.jpg?tr=h-550,w-0,c-at_max",
+      "pdate": "2023-02-04",
+      "id": "135_1675275429838"
+    },
+    {
+      "aname": "Akyl",
+      "aphoto": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "pcontent": "dawdwada",
+      "pphoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_fpPmbK-bebEeX036y7frmW06amtCkG1ew&usqp=CAU",
+      "pdate": "2023-02-15",
+      "id": "929_1675310603123"
+    },
+    {
+      "aname": "fsefs",
+      "aphoto": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "pcontent": "sefsfsef",
+      "pphoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_fpPmbK-bebEeX036y7frmW06amtCkG1ew&usqp=CAU",
+      "pdate": "2023-02-08",
+      "id": "488_1675311579139"
+    },
+    {
+      "aname": "Akyl",
+      "aphoto": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "pcontent": "Samat",
+      "pphoto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIPDw8PDxEPDw8PDw8QDw8PDxEPDw8PGBQZGRgUGBgcIy4lHB4rHxgYJjomKy8xNjg1GiQ7QD0zPy5CNTQBDAwMEA8QHBISHjEhISE1MTQ0NDQ0NDQ0NDQ0MTE0NDQ0NDQ0NDcxNDQ0NDQxNDQ0NDE0NDE0NDE0NDQ0NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQYCBAUDB//EAEYQAAIBAgEHBgcOBgIDAAAAAAABAgMRBAUGEiExQVETYXFykaEiMlJTgbHhFBYjMzRic5KTsrPB0dIVJGN0gsJDo0KD8P/EABoBAQADAQEBAAAAAAAAAAAAAAACAwQBBQb/xAA3EQACAQMBBAcGBAcBAAAAAAAAAQIDBBESBSExcRMyQVFhocEiM4GRsdFikuLxFCQ0UqLh8BX/2gAMAwEAAhEDEQA/APl4ANRQAAAAAAAAAAAAAAAAAACCQAQCQAQCQAQAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAACFBzdlsW042lxJQg5PCMHU3RV+fcZQo1J8fQbNHDq6LFk/DQsrpEox1byE/ZeCse4anzu8e4Knzu1l49zw4IchDgiXRohqZSPcE/nd49wVPnd5eOQhwQ5CHBHdCGtlH9wT+d3j3BU+d3l35CHBDkYcENCGplJ9wVOfvH8Pnz95d+RhwQ5GHBDQhqZSP4dPn7zGWBnHj3l55KHBGFajCz1I50aGplCk5Q26zKM1LZ2HVylQjd2ORKk07x3EdLLIZkegIhK6v28xkcBAJABAJABAJIAAJIAAAAJAAAAAAAAAAAAAABDO3h8KoUrva1c4sPGj1kd3FV7U0lwMN03lRR6FnFaWzmynZm/h8doo4tSess+Z+SY1E8XXip0oTcaNKS8GtWVm3LjGN1q3tpbE09SqqlTzLsM8qEq9bRDiz",
+      "pdate": "2023-02-05",
+      "id": "911_1675313015621"
+    },
+    {
+      "aname": "Akyl",
+      "aphoto": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "pcontent": "Akyl World",
+      "pphoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_fpPmbK-bebEeX036y7frmW06amtCkG1ew&usqp=CAU",
+      "pdate": "2023-02-15",
+      "id": "441_1675314372155"
+    }
+  ]
 }
