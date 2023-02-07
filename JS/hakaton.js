@@ -32,7 +32,7 @@ async function getUsersData() {
   let res = await fetch(USERS_API);
   let users = await res.json();
   return users;
-}
+};
 
 //register
 
@@ -55,14 +55,12 @@ async function register() {
   if (regPasswordInp.value !== regConfPasswordInp.value) {
     alert("Passwords don't match");
     return;
-  }
+  };
 
   let userObj = {
     username: regUsernameInp.value,
     password: regPasswordInp.value,
   };
-
-  let users = await getUsersData();
 
   fetch(USERS_API, {
     method: "POST",
@@ -78,7 +76,7 @@ async function register() {
 
   closeModalBtn.click();
 
-//   render();
+  render();
 }
 
 //authorization || login
